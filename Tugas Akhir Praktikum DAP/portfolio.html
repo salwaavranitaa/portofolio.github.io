@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="">
+        <header class="w-full h-16">
+            <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center font-semibold">
+                <a href="#" class="text-4xl font-bold">Portfolio</a>
+                <!-- Menu links here -->
+                <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-gray-400 z-50
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
+                    <li class="md:hidden z-90 fixed top-4 right-6">
+                        <a href="javascript:void(0)" class="text-right text-white text-4xl" onclick="toggleMenu()">&times;</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#about" class="md:px-8 lg:px-12">About</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#experience" class="md:px-8 lg:px-12">Experience</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#works" class="md:px-8 lg:px-12">My Works</a>
+                    </li>
+    
+                    <li class="py-2">
+                        <a href="#contact" class="md:px-8 lg:px-12">Contact</a>
+                    </li>
+                </ul>
+                <!-- This is used to open the menu on mobile devices -->
+                <div class="flex items-center md:hidden">
+                    <button class=" text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                        onclick="toggleMenu()">
+                        &#9776;
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div id="about" class="flex flex-row justify-center flex-wrap xl:flex my-12 sm:my-24 mx-12">
+            <img src="./img/inisalwa.jpg" class="w-full sm:h-[500px] sm:w-96 lg:h-auto">
+            <div class="w-96 md:w-1/2 md:pl-8 lg:pl-20 my-8 sm:md-0">
+                <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl">Hi, I'm Salwa Afranita</h1>
+                <h2 class="font-bold sm:text-lg lg:text-xl sm:py-2 py-2 lg:py-4">Digital Copywriting</h2>
+                <p class="py-2 md:py-8 lg:py-10 text-md lg:text-lg">
+                    Hi my name is Yanuarin Salwa Afranita. I study at Brawijaya University, my student identification number is 215150600111018. I like to sing, read books and watch movies.
+                    <br><br>
+                    I am a student of Information Technology Education at Brawijaya University. I have an interest in graphic design, creating content, and also brainstorm in a team. Thank you for visiting my page.
+                </p>
+                <div class="flex">
+                    <button class="bg-blue-800 py-2 px-4 text-white font-bold mr-6 hover:bg-black hidden md:flex">Read More</button>
+                    <button class="mt-4 sm:mt-0 border border-blue-800 py-2 px-4 text-blue-800 font-bold hover:bg-black hover:text-white">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-200" id="experience">
+        <h1 class="pt-12 ml-12 sm:ml-24 font-bold text-4xl">My Experience</h1>
+        <div class="justify-center py-16 flex flex-wrap">
+            <div class="card bg-black w-96 sm:w-60 sm:h-96 sm:mr-12 mb-12 text-white p-5 hover:bg-blue-800 transition duration-0 hover:duration-200">
+                <h4>Oktober 2021 - Januari 2022</h4>
+                <h1 class="text-xl font-bold pt-8">Medkominfo STAFF</h1>
+                <h2>BEM FILKOM UB 2022</h2>
+                <div class="pt-10 px-4">
+                    <ul style="list-style-type:disc">
+                        <li class="text-sm">Editing feeds instagram</li>
+                        <li class="text-sm">Creating content</li>
+                        <li class="text-sm">Make a "Closing Cabinet"</li>
+                        <li class="text-sm">Learn to use Adobe Illustrator</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="card bg-black w-96 sm:w-60 sm:h-96 sm:mr-12 mb-12 text-white p-5 hover:bg-blue-800 transition duration-0 hover:duration-200">
+                <h4>Februari 2022 - Now</h4>
+                <h1 class="text-xl font-bold pt-8">Medinkraf Staff</h1>
+                <h2>BEM FILKOM UB 2022</h2>
+                <div class="pt-10 px-4">
+                    <ul style="list-style-type:disc">
+                        <li class="text-sm">Editing feeds instagram</li>
+                        <li class="text-sm">Make lots of tiktok videos</li>
+                        <li class="text-sm">Creating content</li>
+                        <li class="text-sm">Create a company profile</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="card bg-black w-96  sm:w-60 sm:h-96 sm:mr-12 mb-12 text-white p-5 hover:bg-blue-800 transition duration-0 hover:duration-200">
+                <h4>Mei 2022 - Now</h4>
+                <h1 class="text-xl font-bold pt-8">Vice Chief of Kestari</h1>
+                <h2>PKKMB dan Startup Academy 2022</h2>
+                <div class="pt-10 px-4">
+                    <ul style="list-style-type:disc">
+                        <li class="text-sm">Make activity proposals</li>
+                        <li class="text-sm">Make accountability report</li>
+                        <li class="text-sm">Make lots of loan letters</li>
+                        <li class="text-sm">Make lots of invitations</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="card bg-black w-96 sm:w-60 sm:h-96 sm:mr-12 mb-12 text-white p-5 hover:bg-blue-800 transition duration-0 hover:duration-200">
+                <h4>Juni 2022 - Now</h4>
+                <h1 class="text-xl font-bold pt-8">Public Relation STAFF</h1>
+                <h2>HOLOGY 5.0 2022</h2>
+                <div class="pt-10 px-4">
+                    <ul style="list-style-type:disc">
+                        <li class="text-sm">Creating content</li>
+                        <li class="text-sm">Contact external parties</li>
+                        <li class="text-sm">Guide the resource person during the activity</li>
+                        <li class="text-sm">Perpetuate direct reports</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white" id="works">
+        <h1 class="pt-12 ml-12 sm:ml-24 font-bold text-4xl">My Recent Works</h1>
+        <div class="mx-12 sm:mx-24 py-12">
+            <img src="./img/portosalwa1.png" class="mb-16">
+            <img src="./img/tiktokbem.png">
+        </div>
+    </div>
+    <div class="bg-blue-800 p-24">
+        <h1 class="text-white pb-12 text-4xl">Others</h1>
+        <div class="bg-white flex items-center py-4 mb-4">
+            <img src="./img/mic1.png" class="w-12 h-12 mx-8">
+            <div>
+                <h1 class="font-bold">BEM FILKOM 2022</h1>
+                <h class="font-semibold">Master of Ceremony</h>
+                <h3 class="font-semibold">Bonding Kabinet Aryakarsa</h3>
+            </div>
+        </div>
+        <div class="bg-white flex items-center py-4 mb-4">
+            <img src="./img/mic1.png" class="w-12 h-12 mx-8">
+            <div>
+                <h1 class="font-bold">BEM FILKOM 2022</h1>
+                <h class="font-semibold">Master of Ceremony</h>
+                <h3 class="font-semibold">Suarkan Asa 2022</h3>
+            </div>
+        </div>
+        <div class="bg-white flex items-center py-4 mb-4">
+            <img src="./img/mic1.png" class="w-12 h-12 mx-8">
+            <div>
+                <h1 class="font-bold">BEM FILKOM 2022</h1>
+                <h class="font-semibold">Master of Ceremony</h>
+                <h3 class="font-semibold">Workshop Internal</h3>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-gray-200 w-full py-12 " id="contact">
+        <h1 class="text-2xl font-bold text-center">Lets Talk!</h1>
+        <div class="flex justify-center py-4">
+            <a href="https://www.instagram.com/salwaavranita/"class="bi bi-instagram text-xl px-2"></i></a>
+            <a href="https://www.linkedin.com/in/salwaavranita/"class="bi bi-linkedin text-xl px-2"></i></a>
+            <a href="https://www.youtube.com/channel/UCjUVHccsnlyTeTa9lOPJmLQ"class="bi bi-youtube text-xl px-2"></i></a>
+        </div>
+        <div class="pt-8">
+        <p class="text-center text-sm font-semibold">&copy Copyright 2022, Salwa </p>
+        </div>
+    </footer>
+    <script>
+        var menu = document.getElementById('menu');
+        function toggleMenu() {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('w-full');
+            menu.classList.toggle('h-screen');
+        }
+    </script>
+  </body>
+</html>
